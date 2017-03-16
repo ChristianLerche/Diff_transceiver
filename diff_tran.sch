@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:lerchetech
+LIBS:diff_tran-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -184,13 +185,13 @@ Text GLabel 2850 2700 2    39   Output ~ 0
 SSEL
 Text GLabel 2850 2800 2    39   Output ~ 0
 SCK
-Text GLabel 4550 3200 0    39   Input ~ 0
-SCK
-Text GLabel 4550 3800 0    39   Input ~ 0
-MOSI
-Text GLabel 4550 4100 0    39   Output ~ 0
-MISO
 Text GLabel 4550 5000 0    39   Input ~ 0
+SCK
+Text GLabel 4550 4400 0    39   Input ~ 0
+MOSI
+Text GLabel 4550 3500 0    39   Output ~ 0
+MISO
+Text GLabel 4550 3200 0    39   Input ~ 0
 SSEL
 $Comp
 L SOLDER_JUMPER J1
@@ -280,13 +281,13 @@ F 3 "" H 4300 4900 60  0000 C CNN
 	1    4300 4900
 	1    0    0    -1  
 $EndComp
-Text GLabel 4550 2900 0    39   Output ~ 0
-SCK
-Text GLabel 4550 3500 0    39   Output ~ 0
-MOSI
-Text GLabel 4550 4400 0    39   Input ~ 0
-MISO
 Text GLabel 4550 4700 0    39   Output ~ 0
+SCK
+Text GLabel 4550 4100 0    39   Output ~ 0
+MOSI
+Text GLabel 4550 3800 0    39   Input ~ 0
+MISO
+Text GLabel 4550 2900 0    39   Output ~ 0
 SSEL
 $Comp
 L +3V3 #PWR05
